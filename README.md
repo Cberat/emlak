@@ -1,10 +1,10 @@
 Projeyi indirmek için:
-git clone https://github.com/Cberat/emlak.git
-composer install 
-copy .env.example .env
-php artisan key:generate
+1. git clone https://github.com/Cberat/emlak.git
+2. composer install 
+3. copy .env.example .env
+4. php artisan key:generate
 
 Projeyi her seferinde Github göndermek için:
-git add .
-git commit -m "mesaj"
-git push -u origin master
+1. git add .
+2. git commit -m "mesaj"
+3. git push -u origin master
