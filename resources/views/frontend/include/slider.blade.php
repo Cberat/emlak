@@ -1,7 +1,7 @@
 <header class="site-header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-4 site-logo" data-aos="fade"><a href="index.html">Logo</a></div>
+        <div class="col-4 site-logo" data-aos="fade"><a href="{{route("Frontend.index")}}">Logo</a></div>
         <div class="col-8">
 
 
@@ -18,10 +18,9 @@
                 <div class="row full-height align-items-center">
                   <div class="col-md-6">
                     <ul class="list-unstyled menu">
-                      <li><a href="index.html">Home</a></li>
-                      <li><a href="about.html">About</a></li>
-                      <li><a href="blog.html">Blog</a></li>
-                      <li><a href="contact.html">Contact</a></li>
+                      <li><a href="{{route("Frontend.index")}}">Home</a></li>
+                      <li><a href="{{route("Frontend.emlaklar")}}">Emlaklar</a></li>
+                      <li><a href="{{route("Frontend.iletisim")}}">Iletisim</a></li>
                     </ul>
                   </div>
                   <div class="col-md-6 extra-info">
@@ -32,14 +31,6 @@
                         <p>info@yourdomain.com</p>
                         <p>(+1) 435 3533</p>
                         
-                      </div>
-                      <div class="col-md-6">
-                        <h3>Connect With Us</h3>
-                        <ul class="list-unstyled">
-                          <li><a href="#">Twitter</a></li>
-                          <li><a href="#">Facebook</a></li>
-                          <li><a href="#">Instagram</a></li>
-                        </ul>
                       </div>
                     </div>
                   </div>
